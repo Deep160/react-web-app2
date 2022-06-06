@@ -1,0 +1,153 @@
+.section1{
+   background: url(../images/image\ 1.svg);
+   position: relative;
+   background-size: cover; 
+}
+
+
+/*----------------------------------------- FEATURE -----------------------------------------*/
+
+.feature{
+    padding: 80px 0px 0px 0px;
+}
+
+.feature .box{
+    border-radius: 40px;
+    padding-bottom: 25px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.feature .product_name{
+    margin: 10px auto 15px;
+    font-family: 'Numans';
+}
+
+.feature .quantity{
+    width: 100%;
+    font-size: 11px;
+    margin: 10px auto 8px;
+}
+
+.feature .progressbar{     
+    width: 95%;
+}
+
+.feature .box{
+    width: 310px;
+}
+
+.feature .feature-slider{
+    background-color: #333333;
+    margin-left: 0px; 
+    position: relative; 
+    height: 480px; 
+    border-radius: 30px 0 0 30px;
+}
+
+.feature .bi-heart{
+    color:#FF6B00; 
+    margin-top:-30px;
+    margin-left: 170px;
+}
+
+.feature .row22{
+    margin-top: -480px; 
+    padding-left: 35px;
+}
+
+/*----------------------------------------- SHOP --------------------------------------------*/
+
+
+.shop .dropdown-btn{
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.shop .container-fluid{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 0px 60px;
+    text-align: center;
+}
+
+.shop .card{
+    width: 285px;
+    text-align: center;
+    margin: 100px 15px 30px;
+    position: relative;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+}
+
+.shop .card:hover{
+    background-color: #FF6B00;
+}
+
+.shop .card img{
+    margin-top: -75px;
+}
+
+.shop .cart-btn{
+    width: 120px;
+    font-size: 15px;
+    background-color: #000;
+}
+
+/*----------------------------------- ABOUT ------------------------------------------*/
+
+.about h1{
+    font-family: 'Belleza', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.about .info{
+    font-family: 'Bellefair';
+    font-size: 18px;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    text-indent: 50px;
+    text-transform: uppercase;  
+}
+
+.about .DK-img{
+    margin-top: -100px;
+    margin-left: -20px;
+}
+
+/* ----------------------------------- CONTACT ----------------------------------------- */
+
+
+.arrow{
+    margin-left: -30px;
+}
+
+.footer{
+    margin-top: -150px;
+}
+
+@media (max-width: 1199.98px) { 
+    .DK-img{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+}
+
+@media (min-width: 768px) { 
+    
+    .row22{
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 767.99px) { 
+    .profile{
+        visibility: hidden;
+    }
+    
+    .row21{
+        visibility: hidden;
+    }
+    
+}
